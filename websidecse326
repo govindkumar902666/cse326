@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Food Place</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    background: #fff;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.login-btn {
+    padding: 8px 16px;
+    border: none;
+    background-color: #27ae60;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.content h1 {
+    font-size: 3em;
+    color: #333;
+    line-height: 1.2;
+}
+
+.content h1 span {
+    color: #27ae60;
+}
+
+.content p {
+    margin: 20px 0;
+    color: #666;
+}
+
+.order-btn {
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">Delicious</div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#special">Special menu</a></li>
+                    <li><a href="#foods">Foods</a></li>
+                    <li><a href="#order">Order</a></li>
+                </ul>
+                <button class="login-btn">Login</button>
+            </nav>
+        </header>
+        <section class="hero">
+            <div class="content">
+                <img src="th.jpeg" width="500px" height="200px">
+                <h1>One Stop <br> <span>Delicious</span> <br> Food Place</h1>
+                <p>Learn from the world's famous chefs and the amazing and inspirational industry leaders.</p>
+                <form action="abc.php" method="POST">
+            
+                    <h2>Address<Form></Form></h2>
+                    <label for="name">Name:</label>
+                    
+                    <input type="text" placeholder="" name = name><br>
+                    <p>
+                    <label form="pincode">Pincode:</label>
+                        <input type="text" placeholder="" name = name><br>
+                        <p>
+                    <lable1 form="village">Village:</lable1>
+                            <input type="text" placeholder="" name = name><br>
+                            <p>
+                            <lable1 form="post">Post:</lable1>
+                                <input type="text" placeholder="" name = name><br>
+                                <p>
+                            <lable1 form="distrect">distrect:</lable1>
+                                    <input type="text" placeholder="" name = name><br>
+                                    <p>
+                                <lable1 form="contact">Contact:</lable1>
+                                        <input type="text" placeholder="" name = name><br>
+                                        <p>
+    
+                    
+                                
+                    <lable1 for="cities" id="cities">
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="image">
+                
+            </div>
+        </section>
+    </div>
+    
+</body>
+</html>
